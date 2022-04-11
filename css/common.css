@@ -1,0 +1,157 @@
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.eot?ogxono');
+    src: url('../fonts/icomoon.eot?ogxono#iefix') format('embedded-opentype'),
+        url('../fonts/icomoon.ttf?ogxono') format('truetype'),
+        url('../fonts/icomoon.woff?ogxono') format('woff'),
+        url('../fonts/icomoon.svg?ogxono#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400;
+    color: black;
+}
+
+a:hover {
+    color: aquamarine;
+}
+
+.nav-l .jsj {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.top {
+    position: relative;
+    height: 800px;
+}
+
+.top img {
+    width: 100%;
+    height: 100%;
+}
+
+.nav-l {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    display: inline-block;
+    height: 45px;
+    width: 130px;
+    line-height: 45px;
+    text-align: center;
+}
+
+.nav-r {
+    position: absolute;
+    top: 10px;
+    right: 170px;
+    display: inline-block;
+    height: 45px;
+    width: 400px;
+    line-height: 45px;
+    text-align: center;
+}
+
+.nav-r li {
+    display: inline;
+    list-style-type: none;
+    margin-left: 60px;
+}
+
+.xiatu {
+    font-family: 'icomoon';
+    font-size: 50px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -50px;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    color: aliceblue;
+}
+
+.banner {
+    height: 800px;
+    margin: 10px 10px;
+    background-color: blueviolet;
+}
+
+.banner-l {
+    position: relative;
+    display: inline-block;
+    height: 800px;
+    width: 1000px;
+    background-color: blue;
+}
+
+.banner-r {
+    position: absolute;
+    display: inline-block;
+    height: 800px;
+    width: 400px;
+    margin-left: 70px;
+    background-color: aquamarine;
+}
+
+.banner-r li {
+    list-style: none;
+    height: 98px;
+    background-color: beige;
+    border: 1px solid red;
+
+}
+
+.banner h1 {
+    margin-top: 50px;
+}
+
+.banner .box1,
+.box2,
+.box3 {
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    background-color: chartreuse;
+}
+
+.box1 {
+    position: absolute;
+    top: 120px;
+    left: 140px;
+}
+
+.box2 {
+    position: absolute;
+    top: 120px;
+    left: 560px;
+}
+
+.box3 {
+    position: absolute;
+    top: 435px;
+    left: 350px;
+}
+
+/* .banner ul li {
+    float: left;
+    list-style: none;
+    width: 200px;
+    height: 200px;
+    margin-left: 250px;
+    margin-top: 200px;
+    background-color: brown;
+} */
